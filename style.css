@@ -1,0 +1,230 @@
+body {
+  width: 1440px;
+  height: 100vh;
+  background-color: white;
+}
+.p1 {
+  background-color: white;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  height: 30px;
+  width: 150px;
+  position: absolute;
+  left: 70px;
+  top: -9px;
+}
+.grandpap {
+  background-color: rgba(157, 60, 255, 0.836);
+  border-bottom-left-radius: 170px;
+  border-bottom-right-radius: 170px;
+  width: 370px;
+  height: 900px;
+
+  background-image: linear-gradient(
+    to top right,
+    hsl(264, 100%, 61%),
+    hsl(293, 100%, 63%)
+  );
+  left: -50px;
+  top: -50px;
+  position: absolute;
+}
+.parent {
+  height: 70vh;
+  width: 300px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 10px solid white;
+  box-shadow: 1px 1px 20px 1px gray;
+  margin-left: 300px;
+
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+  top: 100px;
+}
+.child {
+  /* background-color: hsl(276, 100%, 81%); */
+  background-image: linear-gradient(
+    to top right,
+    hsl(264, 100%, 61%),
+    hsl(293, 100%, 63%)
+  );
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.child img {
+  height: 30px;
+  border-radius: 50px;
+  border: 2px solid white;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+.child p {
+  margin-left: 10px;
+  color: white;
+  font-size: 13px;
+  font-family: "Rubik", sans-serif;
+  position: absolute;
+  left: 70px;
+}
+.wlk {
+  opacity: 40%;
+}
+.fa-ellipsis {
+  position: absolute;
+  right: 20px;
+  color: white;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+.fa-arrow-left {
+  color: white;
+  margin-left: 10px;
+  position: absolute;
+}
+.midchat {
+  color: purple;
+}
+.dog {
+  display: flex;
+  flex: 0.5;
+  position: absolute;
+  right: 20px;
+}
+#d1 {
+  height: 50px;
+  margin: 5px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#d2 {
+  height: 50px;
+  margin: 5px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#d3 {
+  height: 50px;
+  margin: 5px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.chat1 {
+  background-color: hsla(293, 100%, 63%, 0.322);
+  width: 150px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#chat1 {
+  margin-left: 10px;
+  font-size: 12px;
+
+  font-family: "Rubik", sans-serif;
+}
+.chat1 p {
+  padding: 3px 0;
+}
+#chat2 {
+  margin-left: 10px;
+  font-size: 12px;
+
+  font-family: "Rubik", sans-serif;
+}
+.chat2 {
+  background-color: hsla(293, 100%, 63%, 0.322);
+  width: 150px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.chat p {
+  padding: 8px 0;
+}
+.btn {
+  position: absolute;
+  bottom: 150px;
+}
+.btn button {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-image: linear-gradient(
+    to top left,
+    hsl(264, 100%, 61%),
+    hsl(293, 100%, 63%)
+  );
+  border: none;
+  color: white;
+  height: 39px;
+  width: 210px;
+  font-size: 13px;
+  font-family: "Rubik", sans-serif;
+}
+#price {
+  margin-left: 20px;
+}
+
+.type {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 20px;
+  margin-left: 30px;
+}
+input {
+  border: none;
+  opacity: 50%;
+  cursor: pointer;
+}
+.fa-circle {
+  color: white;
+  position: absolute;
+  left: 20px;
+  opacity: 50%;
+}
+.lsttxt h1 {
+  /* position: absolute; */
+  /* right: 900px;
+  bottom: 550px; */
+  color: hsl(271, 36%, 24%);
+  font-family: "Rubik", sans-serif;
+}
+.lsttxt p {
+  /* position: absolute; */
+  /* right: 700px; */
+  /* bottom: 500px; */
+  color: gray;
+  font-family: "Rubik", sans-serif;
+}
+.lsttxt {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  /* align-items: center; */
+  right: 700px;
+  bottom: 550px;
+}
+.fa-paper-plane {
+  color: hsl(271, 36%, 24%);
+  margin-left: 30px;
+}
